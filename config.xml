@@ -2,7 +2,7 @@
 
 <widget xmlns ="http://www.w3.org/ns /widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
-id ="com.phonegap.app2"
+id ="com.phonegap.app1"
 version ="1.0.0">
 
 <name>app2-Especialidad Tecnico en Programacion</name>
@@ -12,7 +12,7 @@ aplicacion que muestra informacion sobre la especialidad de Tecnico en Programac
 </description>
 
 <author href="https://build.phonegap.com" emal="jacquelineorzuna95@gmail.com">
-jacqueline orzuna cortes
+Jacqueline Orzuna Cortes
 </author>
 
 <!--personaliza la aplicacion y plataforma-->
@@ -32,8 +32,8 @@ jacqueline orzuna cortes
 <!--Para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
-<allow-intent href="http ://*/*"/>
-<acces origin="http ://*/*"/>
+<allow-intent href="http://*/*"/>
+<acces origin="https://*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!--colocar icono app-->
